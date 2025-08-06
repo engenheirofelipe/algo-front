@@ -1,0 +1,30 @@
+div{
+    h3{
+        color:#042743;
+    }
+    div p{
+        color:#042743;
+        strong{
+         color:#042743;
+        }
+        em{
+         color:#042743;
+        }
+    }
+
+    div h4{
+         color:#042743;
+    }
+
+    ol li{
+         color:#042743;
+    }
+
+    ol li strong{
+         color:#042743;
+    }
+
+    ol li br {
+         color:#042743;
+    }
+}

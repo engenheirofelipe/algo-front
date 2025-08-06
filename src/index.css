@@ -7,11 +7,11 @@
   color: #fff;
   scrollbar-width: thin;
   scrollbar-color: #ddd transparent;
-  /* border: 1px solid red; */
+  font-family:'Montserrat', sans-serif;;
 }
 
 body {
-  background: linear-gradient(to bottom right, #272727, #666968, #272727) no-repeat fixed;
+  background:#FFF;
   min-height: 100vh;
 }
 

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import '../Estilosao/campos.css';
+import logoAncora from '../assets/logo-ancora.png';
 
 function Campos({
   query,
@@ -30,14 +31,13 @@ function Campos({
 
   return (
     <div className="campos-grid">
-
+      <img src={logoAncora} alt="Logo Ancora" className="logo-ancora" />
       <div className="busca">
-
         <div className="campo-busca" ref={dropdownRef}>
           <input
             type="text"
             className="campo-input"
-            placeholder="Buscar..."
+            placeholder="Buscar produto"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onFocus={toggleSugestoes}
@@ -73,7 +73,6 @@ function Campos({
       </div>
 
       <div className="marca-opcao">
-
         <div className="campo-marcas">
           <select
             className="select-input"

@@ -2,11 +2,13 @@
   padding: 0;
   border: none;
   margin: 0 auto;
-  background: none;
+
   width: 100%;
+  
   
   hr {
     max-width: 1200px;
     margin: 40px auto;
+    color:#042743;
   }
 }
